@@ -1,12 +1,46 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    color:black;
+}
+body{
+    background-color: #111010;
 }
 
-.theater{
-    background-image: linear-gradient(rgba(247, 238, 238, 0.5), rgba(236, 230, 230, 0.5)), url(../baseball_game.jpg);
-    height: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.nav-item{
+    padding: 50px 20px ;
+    font-size: 25px;
+}
+img {
+    width: 100%
     
+;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-column-gap:100px;
+    justify-content:center;
+    align-content:center;
+    height: 25vh;
+    width: auto;
+    justify-items:center;
+    align-items: center;
+    background-color: rgb(251, 250, 252);
+    margin-top: 15px;
+
+}
+.show{
+    position: absolute;
+    top:50%;
+    left:30%;
+
+
+}
+#FeatShow{
+    font-size: 75px;
+    color: white; 
+}
+
+footer{
+    background-color: black;
 }
